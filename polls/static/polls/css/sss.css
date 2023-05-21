@@ -1,0 +1,34 @@
+
+  
+  
+
+#a10
+{
+    float: left;
+    width: 20%;
+    position: absolute; 
+    top: 40%; 
+    right: 75%;
+    
+    font-size: 48px;
+    font-weight: 300; 
+    color: rgba(255, 255, 255, .8);
+    
+}
+
+
+#a20
+{
+    float: right;
+    width: 5%;
+    position: absolute; 
+    top: 40%; 
+    right: 75%;
+    
+    font-size: 48px;
+    font-weight: 300; 
+    color: rgba(255, 255, 255, .8);
+
+    
+}
+

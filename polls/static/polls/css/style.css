@@ -1,0 +1,89 @@
+#headleft
+{
+/* float: left; */
+width: 1%;
+
+}
+
+
+#headmiddle
+{
+/* float: left; */
+width: 100%;
+}
+
+
+
+
+
+#headleft
+{
+/* float: left; */
+width: 100%;
+
+}
+
+
+
+#next
+{
+
+width: 100%;
+
+}
+
+#searchleft
+{
+float: left;
+width: 1%;
+
+}
+
+
+#searchmiddle
+{
+
+float: left;
+width: 10%;
+
+}
+#searchright
+{
+
+float: left;
+width: 25%;
+
+}
+
+
+
+
+
+
+
+#forty1{
+float: left;
+width:25%;
+}
+
+#forty2{
+float: left;
+width: 5%;
+}
+
+#forty3{
+float: left;
+width: 5%;
+}
+
+
+#forty4{
+float: left;
+width: 15%;
+}
+
+
+#forty5{
+float: left;
+width: 15%;
+}
