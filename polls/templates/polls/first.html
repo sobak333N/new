@@ -9,23 +9,33 @@
 </head>
 
 <body>
-<!--{% autoescape off %}-->
-<!--{{data}}-->
-<!--{% endautoescape %}-->
 
+<div id="top" , align="center">
+<header>Top 100 trends youtube videos</header>
+</div>
 {% load static %}
-
-
-
-<div id="a10">
+<img src="{% static 'polls/pictures/line.png' %}">
+<div id="pic", align="left">
     <img src="{% static 'polls/pictures/h1.jpg' %}">
-<a>10</a>
+</div>
+<div id="text" >
+    {% autoescape off %}
+    {{data}}
+    {% endautoescape %}
 </div>
 
-<div id="a20">
+<img src="{% static 'polls/pictures/line.png' %}">
 
-    <p>20</p>
+<div id="pic", align="left">
+    <img src="{% static 'polls/pictures/h2.jpeg' %}">
 </div>
+<div id="text" >
+    {% autoescape off %}
+    {{data}}
+    {% endautoescape %}
+</div>
+
+
 
 
 

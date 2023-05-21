@@ -1,34 +1,27 @@
 
-  
-  
 
-#a10
-{
+
+#top{
+    width: 100%; 
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 17, 0);
+}
+
+
+#pic{
     float: left;
-    width: 20%;
-    position: absolute; 
-    top: 40%; 
-    right: 75%;
-    
-    font-size: 48px;
-    font-weight: 300; 
-    color: rgba(255, 255, 255, .8);
-    
+    width: 30%;
 }
 
 
-#a20
+
+#text
 {
-    float: right;
-    width: 5%;
-    position: absolute; 
-    top: 40%; 
-    right: 75%;
-    
-    font-size: 48px;
-    font-weight: 300; 
-    color: rgba(255, 255, 255, .8);
-
-    
+    font-size: 25px;
+    float: left;
+    width: 50%;
+    color: rgb(167, 63, 63);
 }
+
 
