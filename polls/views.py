@@ -1,11 +1,13 @@
 from django.shortcuts import render
 import psycopg2
 def index(request):
-      video_id1 = 1
       i = 0
+      video_id1 = 1
+
       connection = psycopg2.connect(host='localhost', dbname='youtube',
-                                   user='postgres', password='3107asdzxc')
+                                    user='postgres', password='3107asdzxc')
       cursor = connection.cursor()
+      request = f"select * from youtube where id = {video_id1}"
       cursor.execute(request)
       b = cursor.fetchall()
       a = '''
