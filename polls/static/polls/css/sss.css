@@ -6,22 +6,54 @@
     font-size: 30px;
     font-weight: bold;
     color: rgb(255, 17, 0);
+
+    background: rgb(193,166,145);
+    background: radial-gradient(circle, rgba(193,166,145,1) 0%, rgba(208,193,208,1) 70%, rgba(66,140,189,0.5284488795518207) 77%);
+    
 }
+
+
+#top:hover{
+    position: relative;
+    transition: 0.5s;
+    color: rgb(255, 0, 149);
+    font-size: 40px;
+    transition: 0.4s;
+
+}
+
+#top:hover:after {
+    content: url(omg.png); /* no need for qoutes */
+    transition: 0.5s;
+    display: block;
+    position: absolute;
+    left: 700px; /* change this value to one that suits you */
+    top: 100px; /* change this value to one that suits you */
+}
+
+
 
 
 #pic{
     float: left;
-    width: 30%;
+    width: 23%;
+    transition: transform 0.3s;
 }
 
+#pic:hover{
 
+     transform:scale(1.15);
+}
 
 #text
 {
+
     font-size: 25px;
     float: left;
-    width: 50%;
+    width: 30%;
     color: rgb(167, 63, 63);
+
 }
+
 
 
