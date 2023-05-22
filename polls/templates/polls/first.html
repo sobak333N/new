@@ -14,26 +14,11 @@
 <header>Top 100 trends youtube videos</header>
 </div>
 {% load static %}
-<img src="{% static 'polls/pictures/line.png' %}">
-<div id="pic", align="left">
-    <img src="{% static 'polls/pictures/h1.jpg' %}">
-</div>
-<div id="text" >
+
     {% autoescape off %}
     {{data}}
     {% endautoescape %}
-</div>
 
-<img src="{% static 'polls/pictures/line.png' %}">
-
-<div id="pic", align="left">
-    <img src="{% static 'polls/pictures/h2.jpeg' %}">
-</div>
-<div id="text" >
-    {% autoescape off %}
-    {{sdata}}
-    {% endautoescape %}
-</div>
 
 
 
